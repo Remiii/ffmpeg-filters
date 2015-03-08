@@ -1,0 +1,111 @@
+{
+    "resources": {
+        "logo.png": "http://i.imgur.com/ZXDDKmG.png"
+    },
+    "filters": [
+        {
+            "type": "overlay",
+            "position": {
+                "x": 10,
+                "y": 10
+            },
+            "resource": "logo.png"
+        },
+        {
+            "type": "box",
+            "position": {
+                "place": "score_box",
+                "z": 1
+            },
+            "options": {
+                "w": 110,
+                "h": 70
+            }
+        },
+        {
+            "type": "text",
+            "position": {
+                "place": "team_home",
+                "z": 2
+            },
+            "options": {
+                "text": "HOME"
+            }
+        },
+        {
+            "type": "text",
+            "position": {
+                "place": "team_away",
+                "z": 2
+            },
+            "options": {
+                "text": "AWAY"
+            }
+        },
+        {
+            "type": "text",
+            "position": {
+                "place": "score_home",
+                "z": 2
+            },
+            "options": {
+                "text": "12"
+            }
+        },
+        {
+            "type": "text",
+            "timestamp": {
+                "start": 0,
+                "end": 2
+            },
+            "position": {
+                "place": "score_away",
+                "z": 2
+            },
+            "options": {
+                "text": "7"
+            }
+        },
+        {
+            "type": "text",
+            "timestamp": {
+                "start": 2
+            },
+            "position": {
+                "place": "score_away",
+                "z": 2
+            },
+            "options": {
+                "text": "8"
+            }
+        },
+        {
+            "type": "overlay",
+            "timestamp": {
+                "start": 2,
+                "end": 4
+            },
+            "position": {
+                "place": "center",
+                "z": 2
+            },
+            "resource": "logo.png"
+        },
+        {
+            "type": "text",
+            "timestamp": {
+                "start": 2,
+                "end": 4
+            },
+            "position": {
+                "place": "center",
+                "z": 3
+            },
+            "options": {
+                "text": "GOAL FOR AWAY TEAM",
+                "fontsize": 30
+            }
+        }
+    ]
+}
+
